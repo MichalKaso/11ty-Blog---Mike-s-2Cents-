@@ -1,0 +1,7 @@
+<section class="container blog">
+<div class="post--bg col-three">
+	{%- for post in collections.blog | reverse -%}
+	{%- include 'post-card.njk' -%}
+	{%- endfor -%}
+</div>
+</section>
